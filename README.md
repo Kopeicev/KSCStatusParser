@@ -15,11 +15,7 @@ For security reasons, users should:
 - not use administrator, database owner, or personal user accounts;
 - run the script only from a dedicated, controlled machine;
 - configure database firewall or ACL rules to allow connections only from that
-  machine or its explicitly assigned IP address;
-- store database credentials securely and never commit them to the repository;
-- protect generated Excel files because they may contain sensitive
-  infrastructure, host, user, or security-status information;
-- regularly review and revoke permissions that are no longer required.
+  machine or its explicitly assigned IP address.
 
 Users are solely responsible for properly configuring database access,
 network restrictions, credential storage, and protection of exported data.
